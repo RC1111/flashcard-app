@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flash Card App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div id='card-display-container'>
+          <!-- Card Display Section -->
+  <div id="front-card-display">
+      <div id="word-display">
+        <p id="word">Word</p>
+      </div>
+  </div>
+  <div id='back-card-display'>
+      <div id='definition-display'>
+        <p id='definition'>Definition</p>  
+      </div>
+  </div>
+  <div id="front-card-display-1">
+    <div id="word-display-1">
+      <p id="word">Word</p>
+    </div>
+</div>
+<div id='back-card-display-1'>
+    <div id='definition-display-1'>
+      <p id='definition-1'>Definition</p>  
+    </div>
+</div>
+</div>
+<!-- Rotating Card Buttons -->
+<div id="cardButtons">
+    <button id="previous" onclick="previousCard()">Last Card</button>
+    <button id="flip" type="button" value="Flip" onclick="flipCard()">Flip Card</button>
+    <button id="displayBothCards" onclick="displayBothCards()">Show Card</button>
+    <button id="remove" onclick="removeCard()">Remove Card</button>
+    <button id="next" onclick="nextCard()">Next Card</button>
+
+</div>
+    <!--ADDING NEW FLASH CARDS -->
+<div id='card-input-container'>
+    <form id="create-card"> 
+    <div id="input-word">
+        <input id="create-word" type = "text" placeholder='Input word' class="text-box text-word" > 
+ </div>
+<div id='input-definition'>
+    <div id="insert-definition">
+        <input id="create-definition" type='text' placeholder='Input definition' class="text-box text-definition">
+    </div>
+</div>
+<button type="button" onclick="addFlashCard()" value="add it to the deck!" >Create Card</button>
+</form>
+</div>
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

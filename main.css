@@ -1,0 +1,83 @@
+/* Diplay  */
+#card-display-container {
+    width: 100%;
+    display: inline-grid; 
+    grid-template-columns: 25% 25% 25% 25%;  
+
+}
+#front-card-display {
+    
+    font-size: 40px;
+    background:rgb(173, 216, 230);
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    margin: 0 ;
+    border: 20px ridge #5db4dd;   
+
+}
+#back-card-display {
+    font-size: 20px;
+background: #90ed90;
+text-align: center;
+padding-top: 30%;
+padding-bottom: 30%;
+border: 20px ridge #5db4dd;
+}
+#front-card-display-1 {
+    
+    font-size: 40px;
+    background:rgb(173, 216, 230);
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    margin: 0 ;
+    border: 20px ridge #5db4dd;   
+
+}
+#back-card-display-1 {
+    font-size: 20px;
+background: #90ed90;
+text-align: center;
+padding-top: 30%;
+padding-bottom: 30%;
+border: 20px ridge #5db4dd;
+}
+
+/* Card button placements */
+#cardButtons {
+    display:center;
+    text-align: center;
+}
+
+/* Input form */
+#create-card {
+    font-size: 40px;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 100%;  
+  
+}
+#input-word {
+  
+  
+    text-align: center;
+  
+    }
+#input-definition{
+       
+        text-align: center;
+        
+        }
+.text-box{
+    text-align:center;
+    width:25%;
+    height:25;
+    padding: 20px;
+    border-color: black;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+}
+
+
